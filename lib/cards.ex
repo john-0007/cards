@@ -22,6 +22,10 @@ defmodule Cards do
     end
   end
 
+  def creare do
+    _value = " john"
+  end
+
   def suffle(deck) do
     Enum.shuffle(deck)
   end
